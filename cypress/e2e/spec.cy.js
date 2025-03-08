@@ -1,6 +1,6 @@
 describe('Teste de cadastro', () => {
     it('Testar o formulário', () => {
-      cy.visit('http://127.0.0.1:5500/projeto-cypress/cypress/tarefa2.html');
+      cy.visit('http://127.0.0.1:5500/TrabalhoCy/cypress/index.html');
   
       cy.get('#nome').should('be.visible');
       cy.get('#nome').type('João Silva');
